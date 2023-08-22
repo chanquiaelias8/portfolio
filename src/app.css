@@ -1,0 +1,28 @@
+
+button {
+    position: fixed;
+    top: 133px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-style: none;
+}
+
+.active { 
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    /* Aquí puedes definir tus estilos para pantallas con ancho menor a 700px */
+    button {
+        display: none;
+    }
+    /* Otros estilos... */
+  }
